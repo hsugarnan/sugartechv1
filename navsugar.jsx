@@ -8,9 +8,10 @@ function  Navsugar( {user} ){
 
     return(
         <div className = "navbar">
-         <img src={ sugartech } alt="logo" />
+         <div className="logo">
+            <img src={ sugartech } alt="logo" />
+        </div>
          <div className = "pfpWrapper">
-            {PFP}
          </div>
         </div>
 
